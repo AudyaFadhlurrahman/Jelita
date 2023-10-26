@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #4e4e4e;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 1rem;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    margin: 5rem 0;
+    padding: 1rem 2rem;
+    max-width: 100%;
+    border: none;
+    border-radius: 1.3rem;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 1.2rem;
+    background-color: darkgrey;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.6 ease, transform 1s ease;
+    transform: translateY(0);
+}
+
+.btn:hover{
+    background-color: lightgrey;
+    transform: translateY(-5px);
+    transition: transform 0.8s ease-out;
+}
+

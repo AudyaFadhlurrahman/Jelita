@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("url_gambar.jpg"); /* Ganti "url_gambar.jpg" dengan URL gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.floating-box {
+    background-color: rgba(255, 255, 255, 0.7); /* Warna latar belakang kotak dengan transparansi */
+    padding: 3rem;
+    border-radius: 1.3rem;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Efek bayangan */
+}
+
+.btn{
+    padding: 1rem 1rem;
+    margin: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 1.2rem;
+    background-color: darkgrey;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.6s ease
+}
+
+
+.btn:hover{
+    background-color: lightgrey;
+    color: #000;
+}
